@@ -1,42 +1,37 @@
-#Jasmine TDD Stencil for coding practice
+# JS OO basic practice
+
+## 适用人群
+
+1. 没有js面向对象经验的人快速验证自己是否已经具备了用js进行基本的面向对象编程的能力
+2. 没有面向对象经验的人通过完成测试来验证自己已经具备了用js进行基本的面向对象编程的能力。
 
 
-## 使用流程
-- 请用户仔细阅读题目要求和题目描述
-
-- 在命令行中使用以下命令在用户本地任意目录下clone此题目库
-```
-git clone repo_of_this_template
-```
-NOTE：如果提示git命令未找到请先阅读参考资料
-- 用任意编辑器打开clone下来的文件夹，内部会存在两个文件夹
-```
-spec  //测试文件夹
-src   //源文件
-```
-`请在src文件下的main.js文件内实现main函数`
-
-- 完成函数后，使用以下命令设置github远程仓库地址 (my_url代表你自己的新的github地址)
-```
- git remote set-url origin my_url
-```
-- 请使用**git提交(commit)**并**上传(push)**，之后将此github仓库地址(用户自建的) eg:（https://github.com/username/repo） 填入到提交地址一栏 
-- 获取分支
-- 提交
-- 等待结果
+## 使用方法
 
 
-## 如何本地运行
+1. 根据spec/paractice_*/的README.md完成对应的src/practice_*/的代码。要求测试通过，并符合题目要求。
+2. 能够理解代码的执行过程中都发生了什么，如果不能够理解，使用调试器进行单步调试来辅助理解。
 
-首先初次下载完需要安装依赖：
+### 运行测试的办法
 
 ```
-  npm install
+    npm install
+```
+```
+    npm test
+```    
+```   
+    If you want to test one indicated folder or file, please try to cheng the jasmine.json file maunally
 ```
 
-然后才能执行测试-测试报告会显示在CLI：
+## 学习材料(内容有重复)
 
-```
-  npm test
-```
+[Introduction to Object Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
 
+[Javascript 面向对象编程（一）：封装](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html)
+[Javascript面向对象编程（二）：构造函数的继承](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html)
+[Javascript面向对象编程（三）：非构造函数的继承](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance_continued.html)
+
+[JavaScript Objects](http://www.w3schools.com/js/js_object_definition.asp)
+
+[CodeForDream Javascript 中级](http://www.codefordream.com/courses/js_intermediate/sections)
